@@ -43,3 +43,11 @@ h2 {
 
   border-radius: 10px;
 }
+/* came with the project files */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
