@@ -1,0 +1,45 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+
+  font-family: Outfit, sans-serif;
+
+  color: hsl(218, 44%, 22%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+p {
+  font-size: 15px;
+}
+h2 {
+  font-weight: 700;
+  font-size: 1.3em;
+}
+p,
+h2 {
+  margin: 0.5em 20px;
+  text-align: center;
+}
+#qrSection {
+  background-color: white;
+
+  width: 300px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 1em;
+  padding-bottom: 2em;
+  border-radius: 16px;
+  margin: 13% 0;
+}
+#qrCode {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1em;
+
+  border-radius: 10px;
+}
